@@ -26,7 +26,7 @@ const handleSubmit = async (e) => {
   e.preventDefault();
 
   try {
-    const response = await fetch("http://127.0.0.1:5000/predict", {
+    const response = await fetch("https://diabetes-prediction-r3hz.onrender.com/predict", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
