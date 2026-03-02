@@ -1,0 +1,13 @@
+# Node
+node_modules/
+diabetes-frontend/node_modules/
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
